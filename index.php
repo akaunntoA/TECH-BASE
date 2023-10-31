@@ -11,9 +11,9 @@
   $ediName = "";
   $ediComment = "";
 //データベース接続
- $dsn = 'mysql:dbname=tb250371db;host=localhost';
-  $user = 'tb-250371';
-  $password = 'Bh9xFrhuwf';
+ $dsn = 'mysql:dbname=XXXDB;host=localhost';
+  $user = 'XXXUSER';
+  $password = 'XXXPASSWORD';
   $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 //テーブル削除
   $sql ='DROP TABLES IF EXISTS tbtest';
